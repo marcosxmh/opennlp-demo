@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcebb12a-5017-4fd8-b83c-86d32cebb7de" name="Changes" comment="Adds target files">
+    <list default="true" id="fcebb12a-5017-4fd8-b83c-86d32cebb7de" name="Changes" comment="Fixes SonarQube Cloud issues from TokenizerMain file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/output-tokens.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/output-tokens.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fogbeam/example/opennlp/TokenizerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fogbeam/example/opennlp/TokenizerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732129826224</updated>
-      <workItem from="1732129827259" duration="2667000" />
+      <workItem from="1732129827259" duration="3976000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore change">
       <option name="closed" value="true" />
@@ -103,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732131614323</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixes SonarQube Cloud issues from TokenizerMain file">
+      <option name="closed" value="true" />
+      <created>1732132779787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732132779787</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +125,7 @@
     <MESSAGE value="Adds workspace.xml" />
     <MESSAGE value="Changes important .gitignore" />
     <MESSAGE value="Adds target files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds target files" />
+    <MESSAGE value="Fixes SonarQube Cloud issues from TokenizerMain file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes SonarQube Cloud issues from TokenizerMain file" />
   </component>
 </project>

@@ -3,66 +3,72 @@ package org.fogbeam.example.opennlp;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import opennlp.tools.tokenize.Tokenizer;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 
 public class TokenizerMain {
-	// Logger instance
-	private static final Logger logger = Logger.getLogger(TokenizerMain.class.getName());
-
 	public static void main(String[] args) throws Exception {
-		String inputFolderPath = "./input"; // Input folder
-		String outputFilePath = "./output/output-tokens.txt"; // Output file
+		// Hardcoded paths
+		String inputFolderPath = "./input"; // Folder containing example.txt
+		String outputFilePath = "./output/output-tokens.txt"; // Output file path
 
+		// Ensure the input folder exists
 		File folder = new File(inputFolderPath);
 		if (!folder.isDirectory()) {
-			logger.warning("The input folder does not exist or is not a directory: " + inputFolderPath);
+			System.out.println("The input folder does not exist or is not a directory: " + inputFolderPath);
 			return;
 		}
 
+		// Ensure the output directory exists (create it if necessary)
 		File outputDir = new File(outputFilePath).getParentFile();
 		if (!outputDir.exists()) {
-			outputDir.mkdirs();
+			outputDir.mkdirs(); // Create directories if they do not exist
 		}
 
+		// Load the tokenizer model
 		InputStream modelIn = new FileInputStream("models/en-token.model");
 		TokenizerModel model = new TokenizerModel(modelIn);
 		Tokenizer tokenizer = new TokenizerME(model);
 
+		// List to store all tokens from all files
 		List<String> allTokens = new ArrayList<>();
 
+		// Loop through each file in the input folder
 		for (File file : folder.listFiles()) {
+			// Only process files with ".txt" extension
 			if (file.isFile() && file.getName().endsWith(".txt")) {
-				logger.info("Processing file: " + file.getName());
+				System.out.println("Processing file: " + file.getName());
 				try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 					StringBuilder content = new StringBuilder();
 					String line;
 
+					// Read the file line by line and append to content
 					while ((line = br.readLine()) != null) {
 						content.append(line).append(" ");
 					}
 
+					// Tokenize the file content
 					String[] tokens = tokenizer.tokenize(content.toString());
 					for (String token : tokens) {
-						allTokens.add(token);
+						allTokens.add(token); // Add tokens to the list
 					}
-				} catch (IOException e) {
-					logger.log(Level.SEVERE, "Error reading file: " + file.getName(), e);
 				}
 			}
 		}
 
+		// Write all tokens to the output file
 		try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath))) {
 			for (String token : allTokens) {
 				writer.write(token);
-				writer.newLine();
+				writer.newLine(); // Write each token on a new line
 			}
 		}
 
-		logger.info("Tokens processed and saved in: " + outputFilePath);
+		System.out.println("Tokens processed and saved in: " + outputFilePath);
+
+		// Close the model input stream
 		modelIn.close();
 	}
 }
+
