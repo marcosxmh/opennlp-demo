@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcebb12a-5017-4fd8-b83c-86d32cebb7de" name="Changes" comment="Adds documentation">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="fcebb12a-5017-4fd8-b83c-86d32cebb7de" name="Changes" comment="Adds target files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
+  <component name="ChangesViewManager" show_ignored="true">
     <option name="groupingKeys">
       <option value="directory" />
     </option>
@@ -61,8 +61,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732129826224</updated>
-      <workItem from="1732129827259" duration="1506000" />
+      <workItem from="1732129827259" duration="2667000" />
     </task>
+    <task id="LOCAL-00001" summary=".gitignore change">
+      <option name="closed" value="true" />
+      <created>1732131398976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732131398976</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".gitignore change">
+      <option name="closed" value="true" />
+      <created>1732131488923</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732131488923</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adds workspace.xml">
+      <option name="closed" value="true" />
+      <created>1732131517237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732131517237</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes important .gitignore">
+      <option name="closed" value="true" />
+      <created>1732131580699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732131580699</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adds target files">
+      <option name="closed" value="true" />
+      <created>1732131614323</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732131614323</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +111,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds documentation" />
+    <MESSAGE value=".gitignore change" />
+    <MESSAGE value="Adds workspace.xml" />
+    <MESSAGE value="Changes important .gitignore" />
+    <MESSAGE value="Adds target files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds target files" />
   </component>
 </project>
