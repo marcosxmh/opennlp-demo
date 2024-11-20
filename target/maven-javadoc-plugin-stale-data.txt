@@ -1,0 +1,44 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--class-path
+'C:/Users/Marcos/Desktop/opennlp-demo/target/nlp-demo1-0.0.1-SNAPSHOT.jar;C:/Users/Marcos/.m2/repository/org/apache/opennlp/opennlp-tools/1.5.3/opennlp-tools-1.5.3.jar;C:/Users/Marcos/.m2/repository/org/apache/opennlp/opennlp-maxent/3.0.3/opennlp-maxent-3.0.3.jar;C:/Users/Marcos/.m2/repository/net/sf/jwordnet/jwnl/1.3.3/jwnl-1.3.3.jar'
+-encoding
+'UTF-8'
+-private
+-sourcepath
+'C:/Users/Marcos/Desktop/opennlp-demo/src/main/java;C:/Users/Marcos/Desktop/opennlp-demo/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Marcos/Desktop/opennlp-demo/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'nlp-demo1 0.0.1-SNAPSHOT API'
+-nohelp
+-use
+-version
+-windowtitle
+'nlp-demo1 0.0.1-SNAPSHOT API'
+org.fogbeam.example.opennlp
+org.fogbeam.example.opennlp.training
+C:\Users\Marcos\Desktop\opennlp-demo\src\main\java = 1732129810420
+C:\Users\Marcos\Desktop\opennlp-demo\target\generated-sources\annotations = 1732130587029
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\allclasses-index.html = 1732130632222
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\allpackages-index.html = 1732130632229
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\element-list = 1732130631905
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\index-all.html = 1732130632294
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\index.html = 1732130632167
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\member-search-index.js = 1732130632248
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\module-search-index.js = 1732130632238
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\overview-summary.html = 1732130632304
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\overview-tree.html = 1732130632160
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\package-search-index.js = 1732130632242
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\search.html = 1732130632297
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\tag-search-index.js = 1732130632253
+C:\Users\Marcos\Desktop\opennlp-demo\target\site\apidocs\type-search-index.js = 1732130632245
